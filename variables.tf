@@ -89,9 +89,9 @@ variable "adb_private_endpoint_label" {
   default = "adbprivendpoint"
 }
 
-variable "whitelisted_ips" {
-  default = [""]
-}
+##variable "whitelisted_ips" {
+##  default = [""]
+##}
 
 variable "is_data_guard_enabled" {
   default = false
